@@ -60,14 +60,14 @@ font-size: 45px;
     font-weight: 400;
 font-size: 18px;
 color: #757575;
+}
 /* main section */
-main,{
+main{
     max-width: 1140px;
     margin: 0 auto;
 }
-* padding: 20px 18px; */
-margin-bottom: 30px;
-}
+/* padding: 20px 18px; */ 
+
 /* about srction styles */
 .about{
 margin-top: 130px;
@@ -158,4 +158,26 @@ margin-bottom: 20px;
 .resume-button{
     margin-top: 50px;
     text-align: center;
+}
+/* contact style */
+.contact.section-title{
+    text-align: left;
+}
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact input[type="text"],input[type="email"],                                                                              textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+input{
+    height: 64px;
+}
+.contact a{
+    text-decoration: none;
 }
